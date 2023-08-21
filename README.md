@@ -186,11 +186,43 @@ diagram and truth table would look like
    
 ![i-qu-gate](./img/i-gate.bmp)
    
+
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>|0></td>
+    <td>|0></td>
+  </tr>
+  <tr>
+    <td>|1></td>
+    <td>|1></td>
+  </tr>
+</table>
+    
 **Quantum Hadamard Gate: Superposition Generator:**   
    
    The Hadamard gate, often denoted as "H," is a foundational gate in quantum computing. It generates superposition by transforming the qubit's state into an equal-weighted combination of |0⟩ and |1⟩. Mathematically, the Hadamard gate maps |0⟩ to (|0⟩ + |1⟩) / √2 and |1⟩ to (|0⟩ - |1⟩) / √2. This gate plays a crucial role in quantum algorithms, including quantum searching and quantum key distribution.   
       
 ![h-gate](./img/h-gate.bmp)
+   
+
+   <table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>|0></td>
+    <td> 1 / √2  (|0⟩ + |1⟩)</td>
+  </tr>
+  <tr>
+    <td>|1></td>
+    <td>1 / √2  (|0⟩ - |1⟩)</td>
+  </tr>
+</table>
    
    
 **Quantum X Gate : Flipping Qubit States:**   
@@ -201,13 +233,44 @@ diagram and truth table would look like
 ![x-gate](./img/x-gate.bmp)
    
 
+   <table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>|0></td>
+    <td>|1></td>
+  </tr>
+  <tr>
+    <td>|1></td>
+    <td>|0></td>
+  </tr>
+</table>
+    
+   
 **Quantum Z Gate: Phase Shift Operator:**  
    
    The Z gate, represented as "Z," introduces a phase shift of π radians (180 degrees) to the qubit's state. It doesn't change the probabilities of measuring 0 or 1, but it imparts a relative phase between the two states. Mathematically, the Z gate maps |0⟩ to |0⟩ and |1⟩ to -|1⟩. The Z gate's effect becomes evident in interference patterns during quantum algorithms.   
       
 ![z-qu-gate](./img/z-gate.bmp)
-   
-         
+
+ 
+  <table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>|0></td>
+    <td>|0></td>
+  </tr>
+  <tr>
+    <td>|1></td>
+    <td>-|1></td>
+  </tr>
+</table>
+        
 **Quantum Controlled Gates:**  
    
    Quantum Controlled operations are achieved through controlled gates. A common example is the Controlled-NOT (CNOT) gate. It acts on two qubits: a control qubit and a target qubit. If the control qubit is in state |1⟩, the target qubit's state is flipped. This gate enables entanglement, a phenomenon crucial for quantum parallelism and quantum algorithms.
@@ -218,6 +281,35 @@ diagram and truth table would look like
       
 ![cx-gate](./img/cx-gate.bmp)
 
+<table>
+  <tr>
+    <th>Control</th>
+    <th>Target</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>|0></td>
+    <td>|0></td>
+    <td>|0⟩</td>
+  </tr>
+  <tr>
+    <td>|0></td>
+    <td>|1></td>
+    <td>|1⟩</td>
+  </tr>
+  <tr>
+    <td>|1></td>
+    <td>|0></td>
+    <td>|1⟩</td>
+  </tr>
+  <tr>
+    <td>|1></td>
+    <td>|1></td>
+    <td>|0⟩</td>
+  </tr>
+</table>
+
+    
 **Measurement: Extracting Classical Information:**   
    
 The measurement is not a gate it uesed extracts classical information from a quantum state. When applied to a qubit, it collapses the qubit's superposition into either the state |0⟩ or |1⟩ based on probabilities determined by the qubit's amplitudes. Measurement is a fundamental aspect of quantum computing, as it provides the output of quantum algorithms.
