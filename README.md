@@ -362,3 +362,11 @@ The Hadamard gate emerges as a superposition generator, producing equal-weighted
 A comparison between classical and quantum gates highlights the pivotal distinctions, including quantum parallelism, exponential speedup, the no-cloning theorem, and the phenomenon of entanglement. The bootcamp culminates in a rich understanding of logic gates' pivotal role in quantum computing's revolution across various fields, opening doors to novel applications and tackling challenging problems.
 
 Through detailed explanations, visual aids, and insightful examples, this Quantum Information Bootcamp equips you with the knowledge to navigate the intricate world of logic gates, setting the stage for further exploration into the depths of quantum information and computation.
+
+## 🔗 References
+
+1. [Logic Gates - Wikipedia](https://en.wikipedia.org/wiki/Logic_gate)
+2. [introduction to classical and quantum computing]([https://plato.stanford.edu/entries/qt-quantcomp/](https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e3p.pdf))
+
+Feel free to explore these references for further reading on logic gates and quantum computing .
+
