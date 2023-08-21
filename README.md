@@ -366,7 +366,7 @@ Through detailed explanations, visual aids, and insightful examples, this Quantu
 ## 🔗 References
 
 1. [Logic Gates - Wikipedia](https://en.wikipedia.org/wiki/Logic_gate)
-2. [introduction to classical and quantum computing]([https://plato.stanford.edu/entries/qt-quantcomp/](https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e3p.pdf))
+2. [introduction to classical and quantum computing](https://plato.stanford.edu/entries/qt-quantcomp/](https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e3p.pdf))
 
 Feel free to explore these references for further reading on logic gates and quantum computing .
 
